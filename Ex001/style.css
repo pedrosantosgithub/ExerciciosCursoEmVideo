@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;}
+
+body {
+    background-color: rgb(29, 98, 177);
+    color: white;
+}
+header{
+    text-align: center;
+}
+section{
+    color: black;
+    background: white;
+    border-radius: 5%;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.26);
+
+}
+footer {
+    text-align: center;
+}
