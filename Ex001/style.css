@@ -18,9 +18,21 @@ section{
     padding: 15px;
     width: 500px;
     margin: auto;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.26);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.959);
 
 }
 footer {
     text-align: center;
+}
+#foto{
+    display: flex;
+    
+}
+#imagem{
+    display: block;
+    align-items: center;
+}
+
+.sombra{
+   box-shadow: 1px 1px 100px rgba(255, 238, 0, 0.959); 
 }
