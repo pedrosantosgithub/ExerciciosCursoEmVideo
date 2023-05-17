@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header > h1 {
+    font-size:  50px;
+    text-align: center;
+}
+p{
+    padding: 5px;
+    
+}
+section {
+    background-color: #ffb004;
+    color: black;
+    width: 550px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    border-radius: 5px 0px 0px 0px
+}
+select#flista {
+    overflow: hidden;
+    height: auto;
+  }
+  
+div#div1{
+    padding: 15px;
+    display: block ;
+    height: 200px;
+    border-radius:0px;
+    box-shadow:  unset 1px 1px 10px #ffbb00;
+}
+
+section > div#div1 > p {
+    text-align: center;
+    margin: auto;
+    font-size: 1.0em;
+    font-weight: bolder;
+}
+section >div#div1 > input[type=Number]{
+    background-color: #ec2c5c;
+    margin-left: 50px;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+section > div#div1 > input[type=button]{
+    background-color: #ec2c5c;
+    margin: 1px;
+    margin-left: 100px;
+    display: flex;
+    border: 1px solid black;
+    color: white;
+    padding: 4px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+section > div#div1 > input[type=button]:hover{
+    background-color: #db2956;
+}
+section > div#div2 {
+    background-color: #1c1c1c;
+    width: 225px ;
+}
+section > div#div2 > select {
+    padding: 1px;
+    width: 112px;
+    height: 160px;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 60px;
+    
+}
+section > div#div2 > input[type=button]{
+    padding: 2px;
+    margin-top: 5px;
+    margin-left: 89px;  
+    background-color: #db2956;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+}
+section > div#div2 > input[type=button]:hover{
+    background-color: #a80931;
+}
+
+div#res{
+    background:linear-gradient( to left, #1c1c1c 41%, #ffae00 40%) ;
+    width: 550px;
+    margin: auto;
+    text-align: left;
+    color: black;
+    border-radius:0px 5px 5px ;
+
+}
+
+div#res > p {
+    padding: 5px;
+    margin: 0px;
+}
