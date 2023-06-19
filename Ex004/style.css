@@ -29,36 +29,36 @@ section {
 select#flista {
     overflow: hidden;
     height: auto;
+    text-align: center;
   }
   
 div#div1{
-    padding: 15px;
+    padding-top: 25px;
+    padding-left: 25px;
     display: block ;
-    height: 200px;
     border-radius:0px;
     box-shadow:  unset 1px 1px 10px #ffbb00;
 }
 
-section > div#div1 > p {
+ div#div1 > p {
     text-align: center;
-    margin: auto;
-    font-size: 1.0em;
+    margin: 15px;
+    font-size: 1.5em;
     font-weight: bolder;
 }
-section >div#div1 > input[type=Number]{
+div#div1 > input[type=Number]{
     background-color: #ec2c5c;
-    margin-left: 50px;
-    padding: 3px;
+    margin:auto;
+    display: flex;
     border: 1px solid black;
     border-radius: 5px;
     text-align: center;
     color: white;
 }
 
-section > div#div1 > input[type=button]{
+ div#div1 > input[type=button]{
     background-color: #ec2c5c;
-    margin: 1px;
-    margin-left: 100px;
+    margin: 20px auto;
     display: flex;
     border: 1px solid black;
     color: white;
@@ -66,14 +66,14 @@ section > div#div1 > input[type=button]{
     font-size: 15px;
     border-radius: 5px;
 }
-section > div#div1 > input[type=button]:hover{
+ div#div1 > input[type=button]:hover{
     background-color: #db2956;
 }
-section > div#div2 {
+div#div2 {
     background-color: #1c1c1c;
     width: 225px ;
 }
-section > div#div2 > select {
+ div#div2 > select {
     padding: 1px;
     width: 112px;
     height: 160px;
@@ -82,7 +82,7 @@ section > div#div2 > select {
     margin-left: 60px;
     
 }
-section > div#div2 > input[type=button]{
+div#div2 > input[type=button]{
     padding: 2px;
     margin-top: 5px;
     margin-left: 89px;  
@@ -91,7 +91,7 @@ section > div#div2 > input[type=button]{
     border-radius: 5px;
     color: white;
 }
-section > div#div2 > input[type=button]:hover{
+ div#div2 > input[type=button]:hover{
     background-color: #a80931;
 }
 
@@ -106,6 +106,8 @@ div#res{
 }
 
 div#res > p {
+    font-size: 16px;
+    font-weight: bold;
     padding: 5px;
     margin: 0px;
 }
